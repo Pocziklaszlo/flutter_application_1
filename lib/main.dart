@@ -12,9 +12,12 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       home: Scaffold(
+        backgroundColor: Colors.blueGrey,
         body: Center(
           child: Text(
             'Hello Flutter!',
+            style:
+                TextStyle(fontSize: 24, color: Color.fromARGB(255, 4, 212, 4)),
           ),
         ),
       ),
